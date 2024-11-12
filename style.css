@@ -45,10 +45,11 @@ body {
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.dropdown-content a {
+.dropdown-content a:hover {
     padding: 10px;
     display: block;
-    color: rgb(194, 145, 187);
+    color: rgb(184, 65, 166);
+
 }
 
 
@@ -131,7 +132,7 @@ strong{
 #paragrafo2 {
     color: #1d3557;
     background-color: #bbcbdd;
-    padding: 36px;
+    padding: 60px;
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
@@ -150,7 +151,15 @@ strong{
     font-family: 'Montserrat', sans-serif;
     text-transform:;
     border: 13px solid #29665f;
-    padding: 28px;
+    padding: 80px;
     letter-spacing: 1px;
     word-spacing: 3px;
+}
+
+#stron {
+    cursor:grab;
+}
+
+#end{
+    cursor: cell;
 }
