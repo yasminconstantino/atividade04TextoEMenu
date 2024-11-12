@@ -124,6 +124,8 @@ strong{
     font-weight: bold;
     text-transform: uppercase;
     padding: 50px;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
 }
 
 
@@ -136,7 +138,7 @@ strong{
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 4px 8px rgb(37, 110, 133);
     text-decoration: underline;
 }
 
@@ -149,11 +151,16 @@ strong{
     font-size: 28px;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
-    text-transform:;
+    text-transform:lowercase;
     border: 13px solid #29665f;
     padding: 80px;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     word-spacing: 3px;
+}
+
+#paragrafo3 #stron{
+    text-shadow: 0 0 0.2em rgb(119, 194, 255), 0 0 0.2em #87F,
+    0 0 0.2em #87F
 }
 
 #stron {
