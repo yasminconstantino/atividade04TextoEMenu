@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilização de Texto e Menus com CSS</title>
+    <!-- Importa fontes do Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu horizontal com dropdown -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#paragrafo1">Parágrafo 1</a></li>
+            <li><a href="#paragrafo2">Parágrafo 2</a></li>
+            <li class="dropdown">
+                <a href="#paragrafo3" class="dropbtn">Parágrafo 3</a>
+                <div class="dropdown-content">
+                    <a href="#subitem1">Subitem 1</a>
+                    <a href="#subitem2">Subitem 2</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Container principal para sidebar e conteúdo principal -->
+    <div class="main-container">
+        <!-- Menu lateral (sidebar) -->
+        <aside class="sidebar">
+            <ul>
+                <li><a href="#paragrafo1">Parágrafo 1</a></li>
+                <li><a href="#paragrafo2">Parágrafo 2</a></li>
+                <li><a href="#paragrafo3">Parágrafo 3</a></li>
+            </ul>
+        </aside>
+
+        <!-- Conteúdo principal com parágrafos estilizados -->
+        <main class="content">
+            <p id="paragrafo1" class="styled-paragraph">
+                <strong>Edgar Allan Poe (A máscara da Morte Vermelha)</strong><br>
+                “Foi próximo ao final do quinto ou sexto mês de sua <br>reclusão, e enquanto a pestilência assolava com o  <br> auge da fúria do outro lado, que o príncipe <br> Prospero ofereceu a seus mil amigos um baile de  <br> máscaras da magnificência mais extraordinária. “
+            <p id="paragrafo2" class="styled-paragraph">
+                <strong>Edgar Allan Poe (O Corvo)</strong><br>
+                Pasmei de ouvir este raro pássaro falar tão claro, <br>
+                Inda que pouco sentido tivessem palavras tais. <br>
+                Mas deve ser concedido que ninguém terá havido <br>
+                Que uma ave tenha tido pousada nos meus umbrais, <br>
+                Ave ou bicho sobre o busto que há por sobre seus umbrais <br>
+                Com o nome "Nunca mais".
+            <p id="paragrafo3" class="styled-paragraph">
+                <strong>Edgar Allan Poe (O gato preto)</strong> <br>“Para a narrativa sumamente extravagante e contudo <br> sumamente trivial em que tomo da pena, não espero  <br> nem peço crédito. De fato, louco seria eu de esperar <br> tal coisa, num episódio em que até meus próprios <br> sentidos rejeitam o que testemunharam. Contudo, <br> não estou louco — e, decerto, tampouco estou <br>
+                 sonhando. Mas amanhã morrerei e hoje quero <br> desafogar minha alma. “</p>
+        </main>
+    </div>
+</body>
+</html>

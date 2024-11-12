@@ -1,0 +1,156 @@
+/* Geral */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* barra de navegação horizontal */
+
+.navbar {
+    background-color: #333;
+    width: 100%;
+}
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.navbar li {
+    position: relative;
+}
+.navbar li a {
+    color: white;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #575757;
+}
+
+
+/*drop menu*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content a {
+    padding: 10px;
+    display: block;
+    color: rgb(194, 145, 187);
+}
+
+
+/* container englobando td*/
+
+.main-container {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* Sidebar vertical */
+
+.sidebar {
+    width: 200px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li a {
+    display: block;
+    padding: 30px;
+    color: #333;
+    margin: 5px;
+    background-color: rgb(194, 167, 194);
+    text-decoration: none;
+    border: solid rgb(168, 139, 168);
+}
+
+.sidebar ul li a:hover {
+    background-color: #ddd;
+    color: #000;
+}
+
+
+/* principal */
+
+.content {
+    flex-grow: 1;
+    width: calc(100% - 200px);
+    background-color: #d8d8d8;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* estilos dos parágrafos */
+
+.styled-paragraph {
+    margin: 180px;
+}
+
+/* estilo para Parágrafo 1 */
+
+strong{
+    color: #333;
+}
+
+#paragrafo1 {
+    border: dotted #631721 5px;
+    color: #631721;
+    background-color: rgb(228, 221, 211);
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 50px;
+}
+
+
+/* estilo para Parágrafo 2 */
+
+#paragrafo2 {
+    color: #1d3557;
+    background-color: #bbcbdd;
+    padding: 36px;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-decoration: underline;
+}
+
+
+/* estilo para Parágrafo 3 */
+
+#paragrafo3 {
+    color: #157469;
+    background-color: #a3c7c3;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    text-transform:;
+    border: 13px solid #29665f;
+    padding: 28px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
